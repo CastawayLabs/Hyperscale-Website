@@ -41,9 +41,20 @@
     padding-top: 10px;
     top: 670px;
     width: 100%;
-    height: 500px;
-    position: absolute;
-    background-color: #000;
+    height: 700px;
+    position: absolute;    
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left top,
+        color-stop(0.16, #F0F0F0),
+        color-stop(1, #BFBFBF)
+    );
+    background-image: -o-linear-gradient(left top, #F0F0F0 16%, #BFBFBF 100%);
+    background-image: -moz-linear-gradient(left top, #F0F0F0 16%, #BFBFBF 100%);
+    background-image: -webkit-linear-gradient(left top, #F0F0F0 16%, #BFBFBF 100%);
+    background-image: -ms-linear-gradient(left top, #F0F0F0 16%, #BFBFBF 100%);
+    background-image: linear-gradient(to left top, #F0F0F0 16%, #BFBFBF 100%);
 }
 
 .left-pillar  {
@@ -62,10 +73,10 @@
     top: 250px;
 }
 .flame-left {
-    margin-left: 16px;
+    padding-left: 16px;
 }
 .flame-right {
-    margin-right: 16px;
+    padding-right: 16px;
 }
 .pillar-foot {
     position: fixed;
